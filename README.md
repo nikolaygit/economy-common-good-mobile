@@ -14,7 +14,12 @@ in different languages for all major mobile devices.
 
 * :arrow_right: Create a [first prototype of the app in German](https://github.com/sinnwerkstatt/economy-common-good-mobile/issues?milestone=2&state=open) with all indicators.
 * Improve the prototype.
+* Add additional ECG information:
+    * contents of the ECG
+    * Vision, history
+    * Join, donate
 * Add English language support.
+* Receive the movement news in the application.
 
 Last update: 01.02.2014
 
