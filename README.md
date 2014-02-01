@@ -44,7 +44,7 @@ Before starting developing run:
 
 ### Build
 
-* Run ``cordova build`` to build the Android application. The file ``EconomyForTheommonGood-debug.apk`` will be generated in the ``platforms/android/bin`` folder.
+* Run ``cordova build`` to build the Android application. The file ``EconomyForTheCommonGood-debug.apk`` will be generated in the ``platforms/android/bin`` folder.
 
 ## Contribute
 
