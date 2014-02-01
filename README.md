@@ -12,8 +12,8 @@ in different languages for all major mobile devices.
 
 ## Roadmap
 
-* :arrow_right: Create a [first prototype of the app in German](https://github.com/sinnwerkstatt/economy-common-good-mobile/issues?milestone=2&state=open) with all indicators.
-* Improve the prototype.
+* :white_check_mark: Create a [first prototype of the app in German](https://github.com/sinnwerkstatt/economy-common-good-mobile/issues?milestone=1) with the indicator C1.
+* :arrow_right: Create a [prototype of the app in German](https://github.com/sinnwerkstatt/economy-common-good-mobile/issues?milestone=2&state=open) with all indicators.
 * Add additional ECG information:
     * contents of the ECG
     * Vision, history
