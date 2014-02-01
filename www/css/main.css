@@ -9,6 +9,94 @@
 }
 */
 /* COLORS */
+/* ECG Colors */
+.ui-table-cell-label {
+  padding: 0em 0px 0em 0em !important;
+  min-width: 0% !important;
+  display: inline-block;
+  margin: 0px !important;
+}
+
+/* COLORS */
+/* ECG Colors */
+/* ECG Colors */
+.gwoe-violet {
+  background-color: #c54d94;
+  color: white;
+}
+
+.gwoe-green {
+  color: #cccb98;
+}
+
+.gwoe-green-bg {
+  background-color: #cccb98;
+  color: white;
+}
+
+.gwoe-green-b {
+  color: #cccb98;
+  font-weight: bold;
+}
+
+.gwoe-blue {
+  color: #99cccc;
+}
+
+.gwoe-blue-b {
+  color: #99cccc;
+  font-weight: bold;
+}
+
+.negative-color {
+  color: #de6b3c;
+}
+
+.negative-color-b {
+  color: #de6b3c;
+  font-weight: bold;
+}
+
+.btn-gwoe {
+  background-color: #cccb98;
+  border-color: #cccb98;
+  color: #FFFFFF;
+}
+
+.btn-gwoe-level-dark-color, .gwoe-level-0, .gwoe-level-1, .gwoe-level-2, .gwoe-level-3, .gwoe-level-4 {
+  border-color: #e5e5e5;
+  color: #5c5c5c;
+}
+
+.gwoe-level-0 {
+  background-color: rgba(222, 107, 60, 0.4);
+}
+
+.gwoe-level-1 {
+  background-color: rgba(232, 184, 9, 0.4);
+}
+
+.gwoe-level-2 {
+  background-color: rgba(255, 241, 1, 0.4);
+}
+
+.gwoe-level-3 {
+  background-color: rgba(163, 207, 154, 0.4);
+}
+
+.gwoe-level-4 {
+  background-color: rgba(64, 174, 73, 0.4);
+}
+
+.ecg-header-background, .subindicator-header {
+  text-shadow: 0px 1px 0px #FFFFFF;
+  background-color: #f8f8f8;
+  background-image: linear-gradient(#fefefe, #f8f8f8);
+  background-repeat: repeat-x;
+}
+
+/* COLORS */
+/* ECG Colors */
 /* GENERAL */
 img.left {
   float: left;
@@ -48,6 +136,41 @@ img.right {
   clear: both;
 }
 
-.container h1 {
+.dheader-style {
   color: blue;
+}
+
+.basic-level {
+  color: #e8b809;
+}
+
+.subindicator-table {
+  padding-bottom: 0.8em;
+  border-bottom: 2px solid #cccccc;
+}
+
+.subindicator-header {
+  display: block;
+  font-size: 1.2em;
+  line-height: 110%;
+  padding: 1em .5em;
+  background-color: #fff;
+  color: #99cccc;
+  border-top: 1px solid rgba(0, 0, 0, 0.15);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+}
+
+.subindicator-title {
+  font-weight: bold;
+}
+
+.subindicator-relevance {
+  color: #414141;
+  font-size: 0.7em;
+  float: right;
+}
+
+.subindicator-track-level {
+  padding: .5em .5em;
+  text-align: center;
 }

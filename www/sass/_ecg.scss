@@ -1,0 +1,85 @@
+@import "variables";
+@import "ecg_colors";
+
+$btn-lighten-percentage: 0.60;
+$btn-darken-percentage: 5;
+
+.gwoe-violet {
+  background-color: $violet-color;
+  color: $white;
+}
+
+.gwoe-green {
+  color: $gwoe-olive-color;
+}
+
+.gwoe-green-bg {
+  background-color: $gwoe-olive-color;
+  color: $white;
+}
+
+.gwoe-green-b {
+  color: $gwoe-olive-color;
+  font-weight: bold;
+}
+
+.gwoe-blue {
+  color: $gwoe-turquoise-color;
+}
+
+.gwoe-blue-b {
+  color: $gwoe-turquoise-color;
+  font-weight: bold;
+}
+
+.negative-color {
+  color: $negative-color;
+}
+
+.negative-color-b {
+  color: $negative-color;
+  font-weight: bold;
+}
+
+.btn-gwoe {
+  background-color: $gwoe-olive-color;
+  border-color: $gwoe-olive-color;
+  color: #FFFFFF;
+}
+
+.btn-gwoe-level-dark-color {
+  border-color: $grey-light-border;
+  color: $grey-dark;
+}
+
+.gwoe-level-0 {
+  @extend .btn-gwoe-level-dark-color;
+  background-color: transparentize($negative-color, $btn-lighten-percentage);
+}
+
+.gwoe-level-1 {
+  @extend .btn-gwoe-level-dark-color;
+  background-color: transparentize($basic-level-color, $btn-lighten-percentage);
+}
+
+.gwoe-level-2 {
+  @extend .btn-gwoe-level-dark-color;
+  background-color: transparentize($advanced-level-color, $btn-lighten-percentage);
+}
+
+.gwoe-level-3 {
+  @extend .btn-gwoe-level-dark-color;
+  background-color: transparentize($experienced-level-color, $btn-lighten-percentage);
+}
+
+.gwoe-level-4 {
+  @extend .btn-gwoe-level-dark-color;
+  background-color: transparentize($model-level-color, $btn-lighten-percentage);
+}
+
+.ecg-header-background {
+  text-shadow: 0px 1px 0px #FFFFFF;
+  background-color: $grey-light-darker;
+  background-image: linear-gradient($grey-light, $grey-light-darker);
+  background-repeat: repeat-x;
+}

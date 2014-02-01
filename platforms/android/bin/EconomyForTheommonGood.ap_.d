@@ -23,8 +23,11 @@
 /home/nikolayhg/dev/workspaces/pycharm/economy-common-good-mobile/platforms/android/assets/www/css/vendor \
 /home/nikolayhg/dev/workspaces/pycharm/economy-common-good-mobile/platforms/android/assets/www/css/main.css \
 /home/nikolayhg/dev/workspaces/pycharm/economy-common-good-mobile/platforms/android/assets/www/css/vendor/jquery.mobile-1.4.0.min.css \
+/home/nikolayhg/dev/workspaces/pycharm/economy-common-good-mobile/platforms/android/assets/www/sass/_ecg_colors.scss \
+/home/nikolayhg/dev/workspaces/pycharm/economy-common-good-mobile/platforms/android/assets/www/sass/_jquery_mobile.scss \
 /home/nikolayhg/dev/workspaces/pycharm/economy-common-good-mobile/platforms/android/assets/www/sass/_fonts.scss \
 /home/nikolayhg/dev/workspaces/pycharm/economy-common-good-mobile/platforms/android/assets/www/sass/_variables.scss \
+/home/nikolayhg/dev/workspaces/pycharm/economy-common-good-mobile/platforms/android/assets/www/sass/_ecg.scss \
 /home/nikolayhg/dev/workspaces/pycharm/economy-common-good-mobile/platforms/android/assets/www/sass/_general.scss \
 /home/nikolayhg/dev/workspaces/pycharm/economy-common-good-mobile/platforms/android/assets/www/sass/main.scss \
 /home/nikolayhg/dev/workspaces/pycharm/economy-common-good-mobile/platforms/android/assets/www/images/tos.png \
@@ -234,9 +237,11 @@
 /home/nikolayhg/dev/workspaces/pycharm/economy-common-good-mobile/platforms/android/assets/www/images/icons-svg/carat-l-black.svg \
 /home/nikolayhg/dev/workspaces/pycharm/economy-common-good-mobile/platforms/android/assets/www/js/index.js \
 /home/nikolayhg/dev/workspaces/pycharm/economy-common-good-mobile/platforms/android/assets/www/js/vendor \
+/home/nikolayhg/dev/workspaces/pycharm/economy-common-good-mobile/platforms/android/assets/www/js/data \
 /home/nikolayhg/dev/workspaces/pycharm/economy-common-good-mobile/platforms/android/assets/www/js/vendor/jquery.mobile-1.4.0.min.js \
 /home/nikolayhg/dev/workspaces/pycharm/economy-common-good-mobile/platforms/android/assets/www/js/vendor/jquery-2.0.2.min.js \
 /home/nikolayhg/dev/workspaces/pycharm/economy-common-good-mobile/platforms/android/assets/www/js/vendor/fastclick.js \
 /home/nikolayhg/dev/workspaces/pycharm/economy-common-good-mobile/platforms/android/assets/www/js/vendor/jquery-1.11.0.min.js \
 /home/nikolayhg/dev/workspaces/pycharm/economy-common-good-mobile/platforms/android/assets/www/js/vendor/jquery-2.1.0.min.js \
+/home/nikolayhg/dev/workspaces/pycharm/economy-common-good-mobile/platforms/android/assets/www/js/data/gwoe-indicators-data-base.js \
 /home/nikolayhg/dev/workspaces/pycharm/economy-common-good-mobile/platforms/android/bin/AndroidManifest.xml \

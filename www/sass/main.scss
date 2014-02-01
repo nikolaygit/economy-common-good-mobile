@@ -1,8 +1,47 @@
 @charset "UTF-8";
 
 @import "fonts";
+@import "variables";
+@import "jquery_mobile";
+@import "ecg";
 @import "general";
 
-.container h1 {
+.dheader-style {
   color: blue;
+}
+
+.basic-level {
+  color: $basic-level-color;
+}
+
+.subindicator-table {
+  padding-bottom: 0.8em;
+  border-bottom: 2px solid $grey;
+}
+
+.subindicator-header {
+  @extend .ecg-header-background;
+  display: block;
+  font-size: 1.2em;
+  line-height: 110%;
+  padding: 1em .5em;
+  background-color: #fff;
+  color: $gwoe-turquoise-color;
+  border-top: 1px solid rgba(0, 0, 0, .15);
+  border-bottom: 1px solid rgba(0, 0, 0, .15);
+}
+
+.subindicator-title {
+  font-weight: bold;
+}
+
+.subindicator-relevance {
+  color: $grey-darkest;
+  font-size: 0.7em;
+  float: right;
+}
+
+.subindicator-track-level {
+  padding: .5em .5em;
+  text-align: center;
 }
