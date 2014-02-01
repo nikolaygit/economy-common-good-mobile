@@ -30,7 +30,7 @@ module.exports = function (grunt) {
                     /* lineNumbers: true */
                 },
                 files: {
-                    'www/css/cosinnus_todo.css': base + '/sass/main.scss'
+                    'www/css/main.css': base + '/sass/main.scss'
                     //'forum/static/forum/css/main.css': 'forum/' + base + '/forum/sass/main.scss',
                 }
             }
