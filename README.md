@@ -1,7 +1,7 @@
 Economy for the Common Good - Mobile app
 ==========================
 
-Mobile app for the Economy for the Common Good: http://gemeinwohl-oekonomie.org/
+Mobile app for the Economy for the Common Good (Gemeinwohl-Ökonomie): http://gemeinwohl-oekonomie.org/
 
 
 ## Goals
