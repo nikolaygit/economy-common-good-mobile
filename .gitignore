@@ -1,0 +1,9 @@
+# dev
+bower_components
+node_modules
+.sass-cache
+
+# IDE
+.idea/
+*.sublime-workspace
+*.sublime-project

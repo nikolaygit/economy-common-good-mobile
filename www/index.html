@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <meta name="format-detection" content="telephone=no"/>
+    <!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323 -->
+    <meta name="viewport"
+          content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi"/>
+    <link rel="stylesheet" type="text/css" href="css/index.css"/>
+
+    <link rel="stylesheet" href="css/vendor/jquery.mobile-1.4.0.min.css"/>
+    <link rel="stylesheet" href="css/index.css"/>
+
+    <title>Gemeinwohl-Ökonomie App</title>
+</head>
+<body>
+
+
+<!-- Start of first page -->
+<div data-role="page" id="foo">
+
+    <div data-role="header" data-theme="b">
+        <h1>Gemeinwohl-Ökonomie</h1>
+    </div>
+    <!-- /header -->
+
+    <div data-role="content" data-theme="b">
+        <p>
+            This is a ListView example using JQuery Mobile.
+        </p>
+    </div>
+    <!-- /content -->
+
+    <ul data-role="listview">
+        <li>
+            <a href="#text">Text</a>
+        </li>
+        <li>
+            <a href="#image">Image</a>
+        </li>
+        <li>
+            <a href="#">Item</a>
+        </li>
+        <li>
+            <a href="#">Another Item</a>
+        </li>
+    </ul>
+</div>
+<!-- /page -->
+
+<!-- Page displaying text -->
+<div data-role="page" id="text">
+
+    <div data-role="header" data-theme="b">
+        <a href="#" data-rel="back" data-icon="back">Back</a>
+
+        <h1>Text</h1>
+    </div>
+    <!-- /header -->
+
+    <div data-role="content" data-theme="b">
+        <p>
+            This is a text.
+        </p>
+    </div>
+    <!-- /content -->
+</div>
+<!-- /page -->
+
+<!-- Page displaying an image -->
+<div data-role="page" id="image">
+
+    <div data-role="header" data-theme="b">
+        <a href="#" data-rel="back" data-icon="back">Back</a>
+
+        <h1>Image</h1>
+    </div>
+    <!-- /header -->
+
+    <div id=image data-theme="b">
+        <center><img src="images/tos.png" alt="tos"/>
+        </center>
+    </div>
+    <!-- /image -->
+</div>
+<!-- /page -->
+
+<script type="text/javascript" src="cordova.js"></script>
+<script src="js/vendor/jquery-2.0.2.min.js"></script>
+<script src="js/vendor/jquery.mobile-1.4.0.min.js"></script>
+<script src="js/vendor/fastclick.js"></script>
+<script type="text/javascript" src="js/index.js"></script>
+<script type="text/javascript">
+
+</script>
+</body>
+</html>
