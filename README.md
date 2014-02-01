@@ -12,11 +12,15 @@ in different languages for all major mobile devices.
 
 ## Roadmap
 
-* :arrow_right: Create a first prototype of app in German.
+* :arrow_right: Create a [first prototype of the app in German](https://github.com/sinnwerkstatt/economy-common-good-mobile/issues?milestone=1&state=open).
 * Improve the prototype.
 * Add English language support.
 
 Last update: 01.02.2014
+
+See our [Progress](CHANGELOG.md).
+
+See [current work](https://github.com/sinnwerkstatt/economy-common-good-mobile/issues?labels=2+-+Working&milestone=&page=1&state=open).
 
 ## Development
 
@@ -41,3 +45,22 @@ Before starting developing run:
 ### Build
 
 * Run ``cordova build`` to build the Android application. The file ``EconomyForTheommonGood-debug.apk`` will be generated in the ``platforms/android/bin`` folder.
+
+## Contribute
+
+### Send a bug or propose new features
+If you want to send a bug, or want a new feature for the mobile application, please:
+
+* [Create a new issue here](https://github.com/sinnwerkstatt/economy-common-good-mobile/issues/new) (you will need a GitHub account)
+* [Help with (comment on) the current issues](https://github.com/sinnwerkstatt/economy-common-good-mobile/issues/).
+* You can write in English or German.
+
+### Contribute to the source code
+* Fork, improve it and send a pull request.
+
+## Learn more
+ * Visit the official [Gemeinwohl-Ökonomie website](http://www.gemeinwohl-oekonomie.de/).
+
+## License
+
+* Source code is under the MIT License.
