@@ -1,8 +1,14 @@
 window.addEventListener('load', function () {
-    FastClick.attach(document.body);
     var hoverDelay = $.mobile.buttonMarkup.hoverDelay = 0;
     $.mobile.defaultPageTransition = 'none';
     $.mobile.defaultDialogTransition = 'none';
+    FastClick.attach(document.body);
+
+    //Specific for iOS
+    $.support.touchOverflow = true;//These two improve page transitions on iOS
+    $.mobile.touchOverflowEnabled = true;
+    /*
+    */
 }, false);
 
 

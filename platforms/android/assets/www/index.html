@@ -4,9 +4,9 @@
     <meta charset="utf-8"/>
     <meta name="format-detection" content="telephone=no"/>
     <!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323 -->
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, user-scalable=no">
 
-    <link rel="stylesheet" href="css/vendor/jquery.mobile-1.4.0.min.css"/>
+    <link rel="stylesheet" href="css/vendor/jquery.mobile-1.4.0.css"/>
     <link rel="stylesheet" href="css/main.css"/>
 
     <title>Gemeinwohl-Ökonomie App</title>
@@ -25,13 +25,13 @@
     <div data-role="content" data-theme="a">
         <ul data-role="listview">
             <li>
-                <a href="#matrix-a1">A1: Ethisches Beschaffungswesen</a>
+                <a href="#matrix-a1" data-transition="none">A1: Ethisches Beschaffungswesen</a>
             </li>
             <li>
-                <a href="#matrix-b1">B1: Ethisches Finanzmanagement</a>
+                <a href="#matrix-b1" data-transition="none">B1: Ethisches Finanzmanagement</a>
             </li>
             <li>
-                <a href="#matrix-c1">C1: Arbeitsplatzqualität und Gleichstellung</a>
+                <a href="#matrix-c1" data-transition="none">C1: Arbeitsplatzqualität und Gleichstellung</a>
             </li>
             <li>
                 <a href="#matrix-c2">C2: Gerechte Verteilung der Erwerbsarbeit</a>
@@ -130,7 +130,7 @@
     </div>
     <!-- /header -->
 
-    <div data-role="content" data-theme="a">
+    <div data-role="content" data-theme="a" class="nopadding">
 
         <div data-role="collapsible" data-collapsed-icon="carat-d" data-expanded-icon="carat-u">
             <h4>Ziele</h4>
@@ -1002,6 +1002,18 @@
 
 <script type="text/javascript" src="cordova.js"></script>
 <script src="js/vendor/jquery-2.0.2.min.js"></script>
+<script type="text/javascript">
+    $(document).on("mobileinit",function(){
+
+        $.mobile.defaultPageTransition = 'none';
+        $.mobile.defaultDialogTransition = 'none';
+        $.mobile.transitionFallbacks='none';
+
+        //Specific for iOS
+        $.support.touchOverflow = true; //These two improve page transitions on iOS
+        $.mobile.touchOverflowEnabled = true;
+    });
+</script>
 <script src="js/vendor/jquery.mobile-1.4.0.min.js"></script>
 <script src="js/vendor/fastclick.js"></script>
 <script type="text/javascript" src="js/index.js"></script>
