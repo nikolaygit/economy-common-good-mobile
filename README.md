@@ -12,7 +12,7 @@ in different languages for all major mobile devices.
 
 ## Roadmap
 
-* Create a first prototype of app in German.
+* :arrow_right: Create a first prototype of app in German.
 * Improve the prototype.
 * Add English language support.
 
