@@ -28,12 +28,16 @@ to build and deploy the mobile application.
 Setup your development environment:
 
 * [Install Cordova and the Android plattform](http://docs.phonegap.com/en/3.3.0/guide_cli_index.md.html#The%20Command-Line%20Interface). Add also
-* [Install Grunt](https://github.com/sinnwerkstatt/sinnwerkstatt-web/wiki/Grunt#wiki-install)
+* [Install Grunt](https://github.com/sinnwerkstatt/sinnwerkstatt-web/wiki/Grunt#wiki-install) and run ``npm install``
 
 ### Develop
 
 All source files are in the ``www`` folder. All changes should be made there.
 
+Before starting developing run:
+
+* ``grunt`` - for compiling *.scss files into CSS and livereload.
+
 ### Build
 
-* Run ``cordova build`` to build the Android application.
+* Run ``cordova build`` to build the Android application. The file ``EconomyForTheommonGood-debug.apk`` will be generated in the ``platforms/android/bin`` folder.
