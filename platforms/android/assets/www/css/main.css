@@ -8,8 +8,6 @@
   font-style: normal;
 }
 */
-/* COLORS */
-/* ECG Colors */
 .ui-table-cell-label {
   padding: 0em 0px 0em 0em !important;
   min-width: 0% !important;
@@ -21,9 +19,10 @@
   padding: 1em 1.5em;
 }
 
-/* COLORS */
-/* ECG Colors */
-/* ECG Colors */
+.ui-header .ui-title, .ui-footer .ui-title {
+  margin: 0 20%;
+}
+
 .gwoe-violet {
   background-color: #c54d94;
   color: white;
@@ -99,8 +98,6 @@
   background-repeat: repeat-x;
 }
 
-/* COLORS */
-/* ECG Colors */
 /* GENERAL */
 img.left {
   float: left;
