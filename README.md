@@ -12,7 +12,7 @@ in different languages for all major mobile devices.
 
 ## Roadmap
 
-* :white_check_mark: Create a [first prototype of the app in German](https://github.com/sinnwerkstatt/economy-common-good-mobile/issues?milestone=1) with the indicator C1.
+* :white_check_mark: Create a [first prototype of the app in German](https://github.com/sinnwerkstatt/economy-common-good-mobile/issues?milestone=1&page=1&state=closed) with the indicator C1.
 * :arrow_right: Create a [prototype of the app in German](https://github.com/sinnwerkstatt/economy-common-good-mobile/issues?milestone=2&state=open) with all indicators.
 * Add additional ECG information:
     * contents of the ECG
