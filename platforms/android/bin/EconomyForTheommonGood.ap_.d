@@ -1,0 +1,25 @@
+/home/nikolayhg/dev/workspaces/pycharm/economy-common-good-mobile/platforms/android/bin/EconomyForTheommonGood.ap_ \
+ : /home/nikolayhg/dev/workspaces/pycharm/economy-common-good-mobile/platforms/android/res/drawable-ldpi/icon.png \
+/home/nikolayhg/dev/workspaces/pycharm/economy-common-good-mobile/platforms/android/res/drawable-xhdpi/icon.png \
+/home/nikolayhg/dev/workspaces/pycharm/economy-common-good-mobile/platforms/android/res/xml/config.xml \
+/home/nikolayhg/dev/workspaces/pycharm/economy-common-good-mobile/platforms/android/res/values/strings.xml \
+/home/nikolayhg/dev/workspaces/pycharm/economy-common-good-mobile/platforms/android/res/drawable-mdpi/icon.png \
+/home/nikolayhg/dev/workspaces/pycharm/economy-common-good-mobile/platforms/android/res/drawable/icon.png \
+/home/nikolayhg/dev/workspaces/pycharm/economy-common-good-mobile/platforms/android/res/drawable-hdpi/icon.png \
+/home/nikolayhg/dev/workspaces/pycharm/economy-common-good-mobile/platforms/android/bin/res/drawable-ldpi/icon.png \
+/home/nikolayhg/dev/workspaces/pycharm/economy-common-good-mobile/platforms/android/bin/res/drawable-xhdpi/icon.png \
+/home/nikolayhg/dev/workspaces/pycharm/economy-common-good-mobile/platforms/android/bin/res/drawable-mdpi/icon.png \
+/home/nikolayhg/dev/workspaces/pycharm/economy-common-good-mobile/platforms/android/bin/res/drawable/icon.png \
+/home/nikolayhg/dev/workspaces/pycharm/economy-common-good-mobile/platforms/android/bin/res/drawable-hdpi/icon.png \
+/home/nikolayhg/dev/workspaces/pycharm/economy-common-good-mobile/platforms/android/assets/www \
+/home/nikolayhg/dev/workspaces/pycharm/economy-common-good-mobile/platforms/android/assets/www/css \
+/home/nikolayhg/dev/workspaces/pycharm/economy-common-good-mobile/platforms/android/assets/www/cordova.js \
+/home/nikolayhg/dev/workspaces/pycharm/economy-common-good-mobile/platforms/android/assets/www/cordova_plugins.js \
+/home/nikolayhg/dev/workspaces/pycharm/economy-common-good-mobile/platforms/android/assets/www/index.html \
+/home/nikolayhg/dev/workspaces/pycharm/economy-common-good-mobile/platforms/android/assets/www/img \
+/home/nikolayhg/dev/workspaces/pycharm/economy-common-good-mobile/platforms/android/assets/www/js \
+/home/nikolayhg/dev/workspaces/pycharm/economy-common-good-mobile/platforms/android/assets/www/config.xml \
+/home/nikolayhg/dev/workspaces/pycharm/economy-common-good-mobile/platforms/android/assets/www/css/index.css \
+/home/nikolayhg/dev/workspaces/pycharm/economy-common-good-mobile/platforms/android/assets/www/img/logo.png \
+/home/nikolayhg/dev/workspaces/pycharm/economy-common-good-mobile/platforms/android/assets/www/js/index.js \
+/home/nikolayhg/dev/workspaces/pycharm/economy-common-good-mobile/platforms/android/bin/AndroidManifest.xml \
