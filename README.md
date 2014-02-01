@@ -18,7 +18,7 @@ in different languages for all major mobile devices.
 
 Last update: 01.02.2014
 
-See our [Progress](CHANGELOG.md).
+See [Progress](CHANGELOG.md).
 
 See [current work](https://github.com/sinnwerkstatt/economy-common-good-mobile/issues?labels=2+-+Working&milestone=&page=1&state=open).
 
