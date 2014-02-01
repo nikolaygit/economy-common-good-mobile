@@ -27,7 +27,7 @@ to build and deploy the mobile application.
 
 Setup your development environment:
 
-* [Install Cordova and the Android plattform](http://docs.phonegap.com/en/3.3.0/guide_cli_index.md.html#The%20Command-Line%20Interface). Add also
+* [Install Cordova and the Android plattform](http://docs.phonegap.com/en/3.3.0/guide_cli_index.md.html#The%20Command-Line%20Interface).
 * [Install Grunt](https://github.com/sinnwerkstatt/sinnwerkstatt-web/wiki/Grunt#wiki-install) and run ``npm install``
 
 ### Develop
