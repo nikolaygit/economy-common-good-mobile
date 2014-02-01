@@ -17,6 +17,10 @@
   margin: 0px !important;
 }
 
+.ui-collapsible-content {
+  padding: 1em 1.5em;
+}
+
 /* COLORS */
 /* ECG Colors */
 /* ECG Colors */
@@ -136,6 +140,10 @@ img.right {
   clear: both;
 }
 
+.nopadding {
+  padding: 0;
+}
+
 .dheader-style {
   color: blue;
 }
@@ -151,9 +159,10 @@ img.right {
 
 .subindicator-header {
   display: block;
+  margin-top: 1em;
+  padding: 1em .5em;
   font-size: 1.2em;
   line-height: 110%;
-  padding: 1em .5em;
   background-color: #fff;
   color: #99cccc;
   border-top: 1px solid rgba(0, 0, 0, 0.15);

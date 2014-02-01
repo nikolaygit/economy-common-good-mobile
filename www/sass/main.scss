@@ -22,9 +22,10 @@
 .subindicator-header {
   @extend .ecg-header-background;
   display: block;
+  margin-top: 1em;
+  padding: 1em .5em;
   font-size: 1.2em;
   line-height: 110%;
-  padding: 1em .5em;
   background-color: #fff;
   color: $gwoe-turquoise-color;
   border-top: 1px solid rgba(0, 0, 0, .15);
