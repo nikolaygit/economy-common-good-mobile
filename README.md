@@ -12,7 +12,7 @@ in different languages for all major mobile devices.
 
 ## Roadmap
 
-* :arrow_right: Create a [first prototype of the app in German](https://github.com/sinnwerkstatt/economy-common-good-mobile/issues?milestone=2&state=open).
+* :arrow_right: Create a [first prototype of the app in German](https://github.com/sinnwerkstatt/economy-common-good-mobile/issues?milestone=2&state=open) with all indicators.
 * Improve the prototype.
 * Add English language support.
 
