@@ -8,6 +8,19 @@
   font-style: normal;
 }
 */
+.ui-header {
+  background-color: white;
+}
+
+.ui-header .ui-title, .ui-footer .ui-title {
+  margin: 0 20%;
+  padding: .2em 0;
+}
+
+.ui-header .ui-btn-left, .ui-header .ui-btn-right {
+  font-size: 13.5px;
+}
+
 .ui-table-cell-label {
   padding: 0em 0px 0em 0em !important;
   min-width: 0% !important;
@@ -19,8 +32,9 @@
   padding: 1em 1.5em;
 }
 
-.ui-header .ui-title, .ui-footer .ui-title {
-  margin: 0 20%;
+.ui-content h1 {
+  text-align: center;
+  color: #cccb98;
 }
 
 .gwoe-violet {
@@ -139,6 +153,10 @@ img.right {
 
 .nopadding {
   padding: 0;
+}
+
+.app-logo {
+  height: 40px;
 }
 
 .dheader-style {
