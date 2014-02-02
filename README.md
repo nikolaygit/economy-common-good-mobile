@@ -18,6 +18,7 @@ in different languages for all major mobile devices.
     * contents of the ECG
     * Vision, history
     * Join, donate
+* Publish the free app in the Google Play store (Android).
 * Add English language support.
 * Receive the movement news in the application.
 
