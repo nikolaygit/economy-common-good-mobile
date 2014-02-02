@@ -32,9 +32,11 @@
 /home/nikolayhg/dev/workspaces/pycharm/economy-common-good-mobile/platforms/android/assets/www/sass/_general.scss \
 /home/nikolayhg/dev/workspaces/pycharm/economy-common-good-mobile/platforms/android/assets/www/sass/main.scss \
 /home/nikolayhg/dev/workspaces/pycharm/economy-common-good-mobile/platforms/android/assets/www/images/tos.png \
+/home/nikolayhg/dev/workspaces/pycharm/economy-common-good-mobile/platforms/android/assets/www/images/gwoe-logo.png \
 /home/nikolayhg/dev/workspaces/pycharm/economy-common-good-mobile/platforms/android/assets/www/images/icon.png \
 /home/nikolayhg/dev/workspaces/pycharm/economy-common-good-mobile/platforms/android/assets/www/images/icons-png \
 /home/nikolayhg/dev/workspaces/pycharm/economy-common-good-mobile/platforms/android/assets/www/images/icons-svg \
+/home/nikolayhg/dev/workspaces/pycharm/economy-common-good-mobile/platforms/android/assets/www/images/gwoe-logo-transparent.png \
 /home/nikolayhg/dev/workspaces/pycharm/economy-common-good-mobile/platforms/android/assets/www/images/ajax-loader.gif \
 /home/nikolayhg/dev/workspaces/pycharm/economy-common-good-mobile/platforms/android/assets/www/images/icons-png/audio-black.png \
 /home/nikolayhg/dev/workspaces/pycharm/economy-common-good-mobile/platforms/android/assets/www/images/icons-png/arrow-u-r-black.png \
