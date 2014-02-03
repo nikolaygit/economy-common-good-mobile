@@ -241,10 +241,15 @@
 /home/nikolayhg/dev/workspaces/pycharm/economy-common-good-mobile/platforms/android/assets/www/js/index.js \
 /home/nikolayhg/dev/workspaces/pycharm/economy-common-good-mobile/platforms/android/assets/www/js/vendor \
 /home/nikolayhg/dev/workspaces/pycharm/economy-common-good-mobile/platforms/android/assets/www/js/data \
+/home/nikolayhg/dev/workspaces/pycharm/economy-common-good-mobile/platforms/android/assets/www/js/templates \
 /home/nikolayhg/dev/workspaces/pycharm/economy-common-good-mobile/platforms/android/assets/www/js/vendor/jquery.mobile-1.4.0.min.js \
 /home/nikolayhg/dev/workspaces/pycharm/economy-common-good-mobile/platforms/android/assets/www/js/vendor/jquery-2.0.2.min.js \
 /home/nikolayhg/dev/workspaces/pycharm/economy-common-good-mobile/platforms/android/assets/www/js/vendor/fastclick.js \
 /home/nikolayhg/dev/workspaces/pycharm/economy-common-good-mobile/platforms/android/assets/www/js/vendor/jquery-1.11.0.min.js \
 /home/nikolayhg/dev/workspaces/pycharm/economy-common-good-mobile/platforms/android/assets/www/js/vendor/jquery-2.1.0.min.js \
+/home/nikolayhg/dev/workspaces/pycharm/economy-common-good-mobile/platforms/android/assets/www/js/data/gwoe-indicators-data.js \
 /home/nikolayhg/dev/workspaces/pycharm/economy-common-good-mobile/platforms/android/assets/www/js/data/gwoe-indicators-data-base.js \
+/home/nikolayhg/dev/workspaces/pycharm/economy-common-good-mobile/platforms/android/assets/www/js/templates/indicatorPagesTemplate-output.html \
+/home/nikolayhg/dev/workspaces/pycharm/economy-common-good-mobile/platforms/android/assets/www/js/templates/indicatorPagesTemplate.html \
+/home/nikolayhg/dev/workspaces/pycharm/economy-common-good-mobile/platforms/android/assets/www/js/templates/index.html \
 /home/nikolayhg/dev/workspaces/pycharm/economy-common-good-mobile/platforms/android/bin/AndroidManifest.xml \
