@@ -6,10 +6,27 @@
     <!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323 -->
     <meta name="viewport" content="width=device-width, user-scalable=no">
 
+    <title>Gemeinwohl-Ökonomie App</title>
+
     <link rel="stylesheet" href="css/vendor/jquery.mobile-1.4.0.css"/>
     <link rel="stylesheet" href="css/main.css"/>
 
-    <title>Gemeinwohl-Ökonomie App</title>
+    <script type="text/javascript" src="cordova.js"></script>
+    <script src="js/vendor/jquery-2.0.2.min.js"></script>
+    <script type="text/javascript">
+        $(document).on("mobileinit",function(){
+
+            $.mobile.defaultPageTransition = 'none';
+            $.mobile.defaultDialogTransition = 'none';
+            $.mobile.transitionFallbacks='none';
+
+            //Specific for iOS
+            $.support.touchOverflow = true; //These two improve page transitions on iOS
+            $.mobile.touchOverflowEnabled = true;
+        });
+    </script>
+    <script src="js/vendor/jquery.mobile-1.4.0.min.js"></script>
+    <script src="js/vendor/fastclick.js"></script>
 </head>
 <body>
 
@@ -1005,22 +1022,6 @@
 
 include "indicatorPagesTemplate-output.html"
 
-<script type="text/javascript" src="cordova.js"></script>
-<script src="js/vendor/jquery-2.0.2.min.js"></script>
-<script type="text/javascript">
-    $(document).on("mobileinit",function(){
-
-        $.mobile.defaultPageTransition = 'none';
-        $.mobile.defaultDialogTransition = 'none';
-        $.mobile.transitionFallbacks='none';
-
-        //Specific for iOS
-        $.support.touchOverflow = true; //These two improve page transitions on iOS
-        $.mobile.touchOverflowEnabled = true;
-    });
-</script>
-<script src="js/vendor/jquery.mobile-1.4.0.min.js"></script>
-<script src="js/vendor/fastclick.js"></script>
 <script type="text/javascript" src="js/index.js"></script>
 <script type="text/javascript">
 
