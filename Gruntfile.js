@@ -5,6 +5,10 @@ module.exports = function (grunt) {
     // load all grunt tasks
     require('matchdep').filterDev('grunt-*').forEach(grunt.loadNpmTasks);
 
+    // grunt.log.debug('Reading file ...');
+    var dataFile = require('./www/js/data/gwoe-indicators-data.js');
+    // grunt.log.debug('Result, Goals: ' + dataFile.Data.indicators.structure.goals);
+
     var base = 'www/';
 
     // Project configuration.
@@ -20,6 +24,16 @@ module.exports = function (grunt) {
             sass: {
                 files: '**/*.s[ac]ss',
                 tasks: ['sass:dev']
+            },
+            // TODO: not called from grunt
+            dusthtml: {
+                files: ['www/js/templates/indicatorPagesTemplate.html', 'www/js/data/gwoe-indicators-data.js'],
+                tasks: ['dusthtml:dist']
+            },
+            // TODO: not called from grunt
+            includes: {
+                files: ['www/js/templates/index.html'],
+                tasks: ['includes']
             }
         },
         sass: {                              // Task
@@ -31,12 +45,39 @@ module.exports = function (grunt) {
                 },
                 files: {
                     'www/css/main.css': base + '/sass/main.scss'
-                    //'forum/static/forum/css/main.css': 'forum/' + base + '/forum/sass/main.scss',
+                }
+            }
+        },
+        dusthtml: {
+            dist: {
+                src: 'www/js/templates/indicatorPagesTemplate.html',
+                dest: 'www/js/templates/indicatorPagesTemplate-output.html',
+
+                options: {
+                    module: 'dustjs-helpers',
+                    context: dataFile.Data.indicators
+                }
+            }
+        },
+        includes: {
+            files: {
+                cwd: 'www/js/templates/',
+                src: ['index.html'], // Source files
+                dest: 'www/', // Destination directory
+                flatten: false,
+                options: {
+                    includePath: 'www/js/templates/'
                 }
             }
         }
     });
     grunt.registerTask('default', [
         'sass', 'watch'
+    ]);
+    grunt.registerTask('build', [
+        'dusthtml'
+    ]);
+    grunt.registerTask('html', [
+        'includes'
     ]);
 };
