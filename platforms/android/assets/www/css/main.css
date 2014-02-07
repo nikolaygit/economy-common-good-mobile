@@ -26,6 +26,14 @@
   font-size: 13.5px !important;
 }
 
+.ui-btn-left {
+  left: .24em !important;
+}
+
+.ui-btn-icon-left {
+  padding: .7em 0.5em .7em 2.4em !important;
+}
+
 .ui-footer {
   margin-top: 15px;
 }
@@ -237,6 +245,17 @@ img.right {
 
 .basic-level {
   color: #e8b809;
+}
+
+.indicator-title {
+  margin-bottom: 0px;
+}
+
+.indicator-points {
+  float: right;
+  padding-bottom: 10px;
+  color: #99cccc;
+  font-size: 1.2em;
 }
 
 .subindicator-table {

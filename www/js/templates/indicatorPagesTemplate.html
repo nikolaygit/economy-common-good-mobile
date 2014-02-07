@@ -10,8 +10,10 @@
     <!-- /header -->
 
     <div data-role="content" data-theme="a" class="nopadding">
-        <h1>{shortcode}: {name}</h1>
-        <div data-role="collapsible" data-collapsed-icon="carat-d" data-expanded-icon="carat-u">
+        <h1 class="indicator-title">{shortcode}: {name}</h1>
+        <div class="indicator-points">{points}</div>
+
+        <div data-role="collapsible" data-collapsed-icon="carat-d" data-expanded-icon="carat-u" class="clearboth">
             <h4>{structure.goals}</h4>
             <ul data-role="listview" data-inset="false">
                 {goals.content|s}
@@ -34,16 +36,16 @@
                         <div class="subindicator-container">
                             <div class="subindicator-header clearfix">
                                 <div class="subindicator-title">{title|s}</div>
-                                <div class="subindicator-relevance">(Relevanz: {relevance})</div>
+                                <div class="subindicator-relevance">({structure.relevance}: {#structure.relevances}{@if cond="'{relevance}' === '{id}'"}{translation}{/if}{/structure.relevances})</div>
                             </div>
                             {#developmentTracks}
                             <div class="subindicator-tracks">
                                 {#developmentDetails}
                                 <div class="subindicator-track-container">
                                     <div class='subindicator-track-level gwoe-level-{#levels}{@if cond="{levels.length} == {$idx} + 1"}{slug}{/if}{/levels}'>
-                                        {#levels}
-                                            {@if cond="{levels.length} == {$idx} + 1"}{slug}{/if}
-                                        {/levels}
+                                        {!levels! }
+                                            {! if cond= levels.length eq idx + 1, print slug !}
+                                        {!levels!}
                                         {#levels}{#structure.levels}
                                             {@select key="{slug}"}
                                                 {@eq value="{levelslug}"}

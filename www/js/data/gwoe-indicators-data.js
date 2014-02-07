@@ -39,11 +39,20 @@ Data.indicators = {
             }
         ],
         relevance : 'Relevanz',
-        relevances : {
-            'low': 'niedrig',
-            'middle': 'mittel',
-            'high': 'hoch'
-        }
+        relevances : [
+            {
+                id: 'low',
+                translation: 'niedrig'
+            },
+            {
+                id: 'middle',
+                translation: 'mittel'
+            },
+            {
+                id: 'high',
+                translation: 'hoch'
+            }
+        ]
     },
 
     data : {

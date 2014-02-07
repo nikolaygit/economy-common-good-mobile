@@ -44,6 +44,17 @@
   color: $basic-level-color;
 }
 
+.indicator-title {
+  margin-bottom: 0px;
+}
+
+.indicator-points {
+  float: right;
+  padding-bottom: 10px;
+  color: $gwoe-turquoise-color;
+  font-size: 1.2em;
+}
+
 .subindicator-table {
   padding-bottom: 0.8em;
   border-bottom: 2px solid $grey;
