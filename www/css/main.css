@@ -8,17 +8,26 @@
   font-style: normal;
 }
 */
-.ui-header {
+.ui-header,
+.ui-footer,
+.ui-page {
   background-color: white;
 }
 
-.ui-header .ui-title, .ui-footer .ui-title {
+.ui-header .ui-title,
+.ui-footer .ui-title {
   margin: 0 20%;
   padding: .2em 0;
 }
 
-.ui-header .ui-btn-left, .ui-header .ui-btn-right {
-  font-size: 13.5px;
+.ui-header .ui-btn-left,
+.ui-header .ui-btn-right,
+.left-button {
+  font-size: 13.5px !important;
+}
+
+.ui-footer {
+  margin-top: 15px;
 }
 
 .ui-table-cell-label {
@@ -35,6 +44,7 @@
 .ui-content h1 {
   text-align: center;
   color: #cccb98;
+  font-size: 1.5em;
 }
 
 .gwoe-violet {
@@ -187,8 +197,38 @@ img.right {
   padding: 0;
 }
 
+.notoppadding {
+  padding-top: 0;
+}
+
 .app-logo {
   height: 40px;
+}
+
+.text-container {
+  padding: 0px 10px;
+}
+
+.text-container h2 {
+  font-size: 1.3em;
+}
+
+.text-container h2,
+.text-container h3 {
+  font-weight: normal;
+  color: #99974c;
+}
+
+.left-button {
+  left: 0.4em;
+}
+
+.matrix-list .ui-collapsible-heading {
+  background-color: white !important;
+}
+
+.matrix-list .ui-collapsible-heading a {
+  color: #99974c !important;
 }
 
 .dheader-style {
@@ -218,6 +258,10 @@ img.right {
 
 .subindicator-title {
   font-weight: bold;
+}
+
+.subindicator-track-description {
+  padding: 5px 5px 15px 5px;
 }
 
 .subindicator-relevance {

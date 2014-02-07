@@ -1,16 +1,25 @@
 @import "ecg_colors";
 
-.ui-header {
+.ui-header,
+.ui-footer,
+.ui-page {
   background-color: $white;
 }
 
-.ui-header .ui-title, .ui-footer .ui-title {
+.ui-header .ui-title,
+.ui-footer .ui-title {
   margin: 0 20%;
   padding: .2em 0;
 }
 
-.ui-header .ui-btn-left, .ui-header .ui-btn-right {
-  font-size: 13.5px;
+.ui-header .ui-btn-left,
+.ui-header .ui-btn-right,
+.left-button {
+  font-size: 13.5px !important;
+}
+
+.ui-footer {
+  margin-top: 15px;
 }
 
 .ui-table-cell-label {
@@ -27,4 +36,5 @@
 .ui-content h1 {
   text-align: center;
   color: $gwoe-olive-color;
+  font-size: 1.5em;
 }

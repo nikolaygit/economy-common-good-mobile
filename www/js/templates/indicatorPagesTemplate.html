@@ -1,10 +1,10 @@
 {#data.indicators}
 
-<!-- page: Matrix {shortcode} aa -->
+<!-- page: Matrix {shortcode} -->
 <div data-role="page" id="matrix-{shortcodeSlug}">
 
     <div data-role="header" data-theme="a">
-        <a href="#" data-rel="back" data-icon="back">Back</a>
+        <a href="#" data-rel="back" data-icon="back">Zurück</a>
         <h1><img src="images/gwoe-logo.png" alt="Gemeinwohl-Ökonomie" class="app-logo"/></h1>
     </div>
     <!-- /header -->
@@ -42,14 +42,15 @@
                                 <div class="subindicator-track-container">
                                     <div class='subindicator-track-level gwoe-level-{#levels}{@if cond="{levels.length} == {$idx} + 1"}{slug}{/if}{/levels}'>
                                         {#levels}
-                                            {#structure.levels}
-                                                {@select key="{slug}"}
-                                                    {@eq value="{levelslug}"}
-                                                        {title} ({min} - {max}%){~s}
-                                                    {/eq}
-                                                {/select}
-                                            {/structure.levels}
+                                            {@if cond="{levels.length} == {$idx} + 1"}{slug}{/if}
                                         {/levels}
+                                        {#levels}{#structure.levels}
+                                            {@select key="{slug}"}
+                                                {@eq value="{levelslug}"}
+                                                    {title} ({min} - {max}%){~s}
+                                                {/eq}
+                                            {/select}
+                                        {/structure.levels}{/levels}
                                     </div>
                                     <div class='subindicator-track-description gwoe-level-light-{#levels}{@if cond="{levels.length} == {$idx} + 1"}{slug}{/if}{/levels}'>
                                         {description|s}
@@ -89,6 +90,11 @@
         </div>
     </div>
     <!-- /content -->
+
+    <div data-role="footer" data-theme="a">
+        <a href="#" data-rel="back" data-icon="back" class="left-button">Zurück</a>
+    </div>
+    <!-- /footer -->
 
 </div>
 <!-- /page: Matrix {shortcode} -->

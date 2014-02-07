@@ -1,5 +1,8 @@
+$dark-color-percentage: 25;
+
 $gwoe-turquoise-color: #99CCCC;
 $gwoe-olive-color: #CCCB98;
+$gwoe-olive-dark-color: darken($gwoe-olive-color, $dark-color-percentage);
 $gwoe-green2: #94BE4E;
 
 $negative-color: #DE6B3C;
