@@ -2,6 +2,7 @@
 @import "ecg_colors";
 
 $btn-lighten-percentage: 0.60;
+$lightest-percentage: 0.90;
 $btn-darken-percentage: 5;
 
 .gwoe-violet {
@@ -57,24 +58,52 @@ $btn-darken-percentage: 5;
   background-color: transparentize($negative-color, $btn-lighten-percentage);
 }
 
-.gwoe-level-1 {
+.gwoe-level-1,
+.gwoe-level-beginner {
   @extend .btn-gwoe-level-dark-color;
   background-color: transparentize($basic-level-color, $btn-lighten-percentage);
 }
 
-.gwoe-level-2 {
+.gwoe-level-light-1,
+.gwoe-level-light-beginner {
+  @extend .btn-gwoe-level-dark-color;
+  background-color: transparentize($basic-level-color, $lightest-percentage);
+}
+
+.gwoe-level-2,
+.gwoe-level-advanced {
   @extend .btn-gwoe-level-dark-color;
   background-color: transparentize($advanced-level-color, $btn-lighten-percentage);
 }
 
-.gwoe-level-3 {
+.gwoe-level-light-2,
+.gwoe-level-light-advanced {
+  @extend .btn-gwoe-level-dark-color;
+  background-color: transparentize($advanced-level-color, $lightest-percentage);
+}
+
+.gwoe-level-3,
+.gwoe-level-experienced {
   @extend .btn-gwoe-level-dark-color;
   background-color: transparentize($experienced-level-color, $btn-lighten-percentage);
 }
 
-.gwoe-level-4 {
+.gwoe-level-light-3,
+.gwoe-level-light-experienced {
+  @extend .btn-gwoe-level-dark-color;
+  background-color: transparentize($experienced-level-color, $lightest-percentage);
+}
+
+.gwoe-level-4,
+.gwoe-level-model {
   @extend .btn-gwoe-level-dark-color;
   background-color: transparentize($model-level-color, $btn-lighten-percentage);
+}
+
+.gwoe-level-light-4,
+.gwoe-level-light-model {
+  @extend .btn-gwoe-level-dark-color;
+  background-color: transparentize($model-level-color, $lightest-percentage);
 }
 
 .ecg-header-background {

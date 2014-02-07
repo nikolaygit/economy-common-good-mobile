@@ -80,7 +80,15 @@
   color: #FFFFFF;
 }
 
-.btn-gwoe-level-dark-color, .gwoe-level-0, .gwoe-level-1, .gwoe-level-2, .gwoe-level-3, .gwoe-level-4 {
+.btn-gwoe-level-dark-color, .gwoe-level-0, .gwoe-level-1,
+.gwoe-level-beginner, .gwoe-level-light-1,
+.gwoe-level-light-beginner, .gwoe-level-2,
+.gwoe-level-advanced, .gwoe-level-light-2,
+.gwoe-level-light-advanced, .gwoe-level-3,
+.gwoe-level-experienced, .gwoe-level-light-3,
+.gwoe-level-light-experienced, .gwoe-level-4,
+.gwoe-level-model, .gwoe-level-light-4,
+.gwoe-level-light-model {
   border-color: #e5e5e5;
   color: #5c5c5c;
 }
@@ -89,20 +97,44 @@
   background-color: rgba(222, 107, 60, 0.4);
 }
 
-.gwoe-level-1 {
+.gwoe-level-1,
+.gwoe-level-beginner {
   background-color: rgba(232, 184, 9, 0.4);
 }
 
-.gwoe-level-2 {
+.gwoe-level-light-1,
+.gwoe-level-light-beginner {
+  background-color: rgba(232, 184, 9, 0.1);
+}
+
+.gwoe-level-2,
+.gwoe-level-advanced {
   background-color: rgba(255, 241, 1, 0.4);
 }
 
-.gwoe-level-3 {
+.gwoe-level-light-2,
+.gwoe-level-light-advanced {
+  background-color: rgba(255, 241, 1, 0.1);
+}
+
+.gwoe-level-3,
+.gwoe-level-experienced {
   background-color: rgba(163, 207, 154, 0.4);
 }
 
-.gwoe-level-4 {
+.gwoe-level-light-3,
+.gwoe-level-light-experienced {
+  background-color: rgba(163, 207, 154, 0.1);
+}
+
+.gwoe-level-4,
+.gwoe-level-model {
   background-color: rgba(64, 174, 73, 0.4);
+}
+
+.gwoe-level-light-4,
+.gwoe-level-light-model {
+  background-color: rgba(64, 174, 73, 0.1);
 }
 
 .ecg-header-background, .subindicator-header {
