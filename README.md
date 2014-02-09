@@ -12,7 +12,7 @@ Create a mobile application to explore the [manual of the Economy for the Common
 
 * :white_check_mark: Create a [first prototype of the app in German](https://github.com/sinnwerkstatt/economy-common-good-mobile/issues?milestone=1&page=1&state=closed) with the indicator C1.
 * :white_check_mark: Create a [prototype of the app in German](https://github.com/sinnwerkstatt/economy-common-good-mobile/issues?milestone=2&state=open) with all indicators.
-* Add additional ECG information:
+* :white_check_mark: Add additional ECG information:
     * contents of the ECG
     * Vision, history
 * Collaborate with the ECG movement on the further development. Ask whether it is desired to make it available to all people, through publishing it in Google Play and iPhone.
