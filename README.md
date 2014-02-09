@@ -25,7 +25,7 @@ Last update: 01.02.2014
 
 See [Progress](CHANGELOG.md).
 
-See [current work](https://github.com/sinnwerkstatt/economy-common-good-mobile/issues?labels=2+-+Working&milestone=&page=1&state=open).
+See [current work](https://github.com/sinnwerkstatt/economy-common-good-mobile/issues?labels=2+-+Working&milestone=&page=1&state=open) and [open issues](https://github.com/sinnwerkstatt/economy-common-good-mobile/issues).
 
 ## Use
 
