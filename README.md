@@ -91,3 +91,4 @@ If you want to send a bug, or want a new feature for the mobile application, ple
 ## License
 
 * Source code is under the MIT License.
+* Data belongs to the ECG movement (Hopefully to be open source too?)
