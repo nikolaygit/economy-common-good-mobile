@@ -40,8 +40,7 @@ Please note that the current version is test version, and maybe some functions w
 
 ## Development
 
-We use [PhoneGap](http://phonegap.com/) and [jQuery Mobile](http://jquerymobile.com/)
-to build and deploy the mobile application.
+We use [jQuery Mobile](http://jquerymobile.com/) (HTML, CSS, JS) and [PhoneGap](http://phonegap.com/) (as a mobile app wrapper) to build and deploy the mobile application.
 
 ### Setup
 
