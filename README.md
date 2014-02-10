@@ -18,6 +18,7 @@ Create a mobile application to explore the [manual of the Economy for the Common
 * Collaborate with the ECG movement on the further development. Ask whether it is desired to make it available to all people, through publishing it in Google Play and iPhone.
 * Publish the free app in the Google Play store (Android).
 * Add English language support.
+* Build an iOS version.
 * Embed example company balances in the mobile app.
 * Receive the movement news in the application.
 
