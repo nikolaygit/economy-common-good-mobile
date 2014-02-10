@@ -254,6 +254,7 @@ img.right {
 .indicator-points {
   float: right;
   padding-bottom: 10px;
+  padding-right: 10px;
   color: #99cccc;
   font-size: 1.2em;
 }

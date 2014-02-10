@@ -1,4 +1,4 @@
-/home/nikolayhg/dev/workspaces/pycharm/economy-common-good-mobile/platforms/android/gen/com/example/hello/R.java \
+/home/nikolayhg/dev/workspaces/pycharm/economy-common-good-mobile/platforms/android/gen/org/gemeinwohloekonomie/mobile/R.java \
  : /home/nikolayhg/dev/workspaces/pycharm/economy-common-good-mobile/platforms/android/res/drawable-ldpi/icon.png \
 /home/nikolayhg/dev/workspaces/pycharm/economy-common-good-mobile/platforms/android/res/drawable-xhdpi/icon.png \
 /home/nikolayhg/dev/workspaces/pycharm/economy-common-good-mobile/platforms/android/res/xml/config.xml \
