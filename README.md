@@ -31,9 +31,12 @@ See [current work](https://github.com/sinnwerkstatt/economy-common-good-mobile/i
 
 ### Android
 
+* Enable installation of non-Market apps: ``Settings->Security->Unknown sources (check)``
 * Download the [EconomyForTheCommonGood-debug.apk](https://github.com/sinnwerkstatt/economy-common-good-mobile/raw/master/platforms/android/bin/EconomyForTheCommonGood-debug.apk) file.
-* Uplaod the file on your Android phone and open it. This will
+* Uplaod the file on your Android phone and open it. This will install the application on your Android phone.
+* If you have problems with it, please [open a new GitHub issue](https://github.com/sinnwerkstatt/economy-common-good-mobile/issues?state=open)
 
+Please note that the current version is test version, and maybe some functions will not work, but you will be able to read all informations in the app!
 
 ## Development
 
