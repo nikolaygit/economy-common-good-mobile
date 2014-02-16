@@ -2,7 +2,7 @@
 
 ## 2014
 
-* 16.02 - Added screenshots
+* 16.02 - Added screenshots.
 * 07.02 - Added new ECG pages, a panel. Better UI.
 * 06.02 - Added all subindicator tables.
 * 02.02 - Performance breakthrough: rendering templates with matrix data on the server side with Grunt! Automatic generation of the HTML for all indicators (without the tables).
