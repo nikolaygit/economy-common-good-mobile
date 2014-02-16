@@ -82,6 +82,13 @@ If you want to send a bug, or want a new feature for the mobile application, ple
 ## Learn more
  * Visit the official [Gemeinwohl-Ökonomie website](http://www.gemeinwohl-oekonomie.de/).
 
+## Other ECG Software
+
+* [ECG Interactive Matrix](https://github.com/sinnwerkstatt/gemeinwohl-oekonomie#interactive-ecg-matrix)
+* [ECG Online Balancing App](https://github.com/sinnwerkstatt/gemeinwohl-oekonomie#ecg-balancing-web-application)
+* [ECG Quick Test](http://sinnwerkstatt.github.io/gemeinwohl-oekonomie/test.html#)
+
 ## License
 
 * Source code is under the MIT License.
+* Data belongs to the ECG movement (Hopefully to be open source too?)
