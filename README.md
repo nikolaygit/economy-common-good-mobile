@@ -8,6 +8,9 @@ Mobile app for the Economy for the Common Good (Gemeinwohl-Ökonomie): http://ge
 
 Create a mobile application to explore the [manual of the Economy for the Common Good](http://sinnwerkstatt.github.io/gemeinwohl-oekonomie/#matrix) in different languages for all major mobile devices.
 
+
+![](https://raw2.github.com/sinnwerkstatt/economy-common-good-mobile/master/docs/images/ecg-mobile-app-00-overview.png)
+
 ## Roadmap
 
 * :white_check_mark: Create a [first prototype of the app in German](https://github.com/sinnwerkstatt/economy-common-good-mobile/issues?milestone=1&page=1&state=closed) with the indicator C1.
